@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import TimeEntryList from './TimeEntryList';
+import TimeEntry from './TimeEntryList';
 
 const TimeTracker = () => {
  const [isTracking, setIsTracking] = useState(false);
