@@ -10,7 +10,7 @@ interface TimeEntryProps {
   isOpen: boolean;
 }
 
-const TimeEntryList = ({ onSubmit, onClose, isOpen }: TimeEntryProps) => {
+const TimeEntry = ({ onSubmit, onClose, isOpen }: TimeEntryProps) => {
   const [startTime, setStartTime] = useState('');
   const [endTime, setEndTime] = useState('');
   const [description, setDescription] = useState('');
